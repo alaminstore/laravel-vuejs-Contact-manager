@@ -79,7 +79,7 @@ export default {
 
             if (this.isEditing) {
                 method = axios.put;
-                url = `/api/tel/41`
+                url = `/api/tel/${this.temp_id}`
 
             }
             try {
